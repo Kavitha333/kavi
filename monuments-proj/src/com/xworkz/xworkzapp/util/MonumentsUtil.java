@@ -23,7 +23,7 @@ public class MonumentsUtil {
 		monuments.setName(name);
 		monuments.setId(id);
 		artGallery.addMonuments(monuments);
-		
+	
 	}
 	artGallery.showAllMonuments();
 	sc.close();

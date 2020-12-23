@@ -15,9 +15,10 @@ public class ArtGallery {
 	}
 	
 	public void showAllMonuments() {
-		for(MonumentsDTO  MonumentsDTO :monumentDTOs ) {
-			if(MonumentsDTO != null) {
-				System.out.println(MonumentsDTO.getName()+" "+MonumentsDTO.getId());
+		//for(MonumentsDTO  MonumentsDTO :monumentDTOs ) {
+		for (int i = 0; i < monumentDTOs.length; i++) {
+			if(monumentDTOs[i] != null) {
+				System.out.println(monumentDTOs[i].getName()+" "+monumentDTOs[i].getId());
 			}
 			else {
 				System.out.println("Please add the details");
