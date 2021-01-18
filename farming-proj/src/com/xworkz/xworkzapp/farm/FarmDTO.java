@@ -2,7 +2,7 @@ package com.xworkz.xworkzapp.farm;// custom package
 
 public class FarmDTO {
 
-	String typeOfSoil;
+	private String typeOfSoil;
 	private String area;
 	private String typeOfCrop;
 	

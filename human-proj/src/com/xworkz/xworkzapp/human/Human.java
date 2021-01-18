@@ -48,7 +48,12 @@ public class Human {
 	public boolean equals(Object obj) {
 		// if(obj !=null) {
 		// this is nothing but Human(class)
-		if (this == obj) {
+		
+	if(obj instanceof Human)  //type comparization
+		{
+			return true;
+		}
+		/*if (this == obj) {
 			return true;
 		}
 
@@ -62,7 +67,7 @@ public class Human {
 		if (this.name.equals(obj)) {
 			return true;
 		}
-		// }
+	 }*/
 		return false;
 
 	}

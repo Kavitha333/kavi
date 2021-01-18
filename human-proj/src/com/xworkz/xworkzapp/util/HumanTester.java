@@ -55,7 +55,8 @@ public class HumanTester {
 //hashcode never return memory location
 
 //comparing
-		System.out.println(avatar.equals(avatar));
+		Object s="aaa";
+		System.out.println(avatar.equals(rukku));
 
 	}
 }

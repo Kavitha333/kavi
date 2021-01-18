@@ -33,10 +33,24 @@ public class FarmUtil {
 			dto.setArea(area);
 			dto.setTypeOfCrop(typeOfCrop);
 					
-		     operation.addFarmDetails(dto);
+		  
+			operation.addFarmDetails(dto);
+			
 		
 	}
     operation.showAllFarmDetails();
+     System.out.println("Enter the name of crop");
+     String crop= sc.next();
+    operation.showFarmDetailsByCrop(crop);
+    
+    System.out.println("Enter the name of soil");
+     String soil= sc.next();
+    operation.showFarmDetailsBySoil(soil);
+    
+    System.out.println("Enter the area");
+     String area= sc.next();
+     operation.showFarmDetailsByArea(area);
+   // operation.showFarmDetailsByCrop();
     sc.close();
 }
 }
